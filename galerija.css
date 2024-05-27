@@ -1,0 +1,17 @@
+.gallery-container {
+    background-color: white;
+    padding: 20px;
+}
+
+.gallery-item {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-id,
+.gallery-name {
+    color: red;
+    font-weight: bold;
+}

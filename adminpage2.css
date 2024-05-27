@@ -1,0 +1,241 @@
+/* Resetiranje stilova */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("background.jpg");
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.nav-left a,
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+.content {
+    background-color: #ffffff00; /* Bela pozadina */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.control-panel {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.gallery-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gallery-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gallery-form select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.gallery-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* CSS stilovi za galerijski kontejner */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0); /* Bela pozadina */
+    padding: 20px;
+}
+
+/* Stilovi za svaki pojedinačni element unutar galerijskog kontejnera */
+.gallery-item {
+    width: 24.394%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    background-color: white; /* Bela pozadina */
+    padding: 10px;
+}
+
+/* Stilovi za ID galerije */
+.gallery-item .gallery-id {
+    color: red; /* Crvena boja teksta */
+}
+
+/* Stilovi za ime galerije */
+.gallery-item .gallery-name {
+    color: red; /* Crvena boja teksta */
+}
+
+
+.gallery-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #f9f9f9;
+    float: left;
+}
+
+.gallery-id,
+.gallery-name {
+    margin-bottom: 5px;
+    color: red;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: center; /* Centriranje sadržaja u ovom divu */
+    margin-bottom: 10px;
+    text-align: center; /* Centriranje teksta */
+}
+
+.gallery-form {
+    margin-top: 20px;
+}
+
+.gallery-form select {
+    padding: 10px;
+    width: 350px; /* prilagodite veličinu prema potrebi */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.gallery-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+/* CSS stilovi za galerijski kontejner */
+.gallery-container {
+display: flex; /* Koristimo Flexbox za raspored slika */
+flex-wrap: wrap; /* Omogućava da slike prelaze u novi red */
+
+}
+/* Stilovi za svaku pojedinačnu sliku */
+.gallery-image {
+width: 24.394%; /* Širina svake slike je 25% širine prozora preglednika */
+height: 25%; /* Visina se automatski prilagođava širini */
+margin-right: 10px; /* Razmak između slika */
+margin-bottom: 10px; /* Razmak ispod slika */
+object-fit: cover; /* Osigurava da se slike proporcionalno prilagođavaju dimenzijama */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
