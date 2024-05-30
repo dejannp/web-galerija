@@ -82,10 +82,12 @@ if (!isset($_SESSION['admin_name'])) {
             <center>
                 <div class="control-panel">
                     <div class="form-buttons">
+                    <button onclick="listGalleries()" class="btn">Izlistaj galerije</button>
                         <a href="formadodajgaleriju.php" class="btn">Dodaj novu galeriju</a>
-                        <button onclick="listGalleries()" class="btn">Izlistaj galerije</button>
+                
                         <a href="slikaforma.php" class="btn">Dodaj novu sliku</a>
                         <a href="brisigaleriju.php" class="btn">Obriši galeriju</a>
+                        <a href="brisisliku.php" class="btn">Obriši sliku</a>
                     </div>
 
                     <br>

@@ -14,14 +14,14 @@ $(document).ready(function(){
                 name: name
             },
             success: function(response){
-                // Ovdje možete dodati kod za rukovanje uspješnim odgovorom ako je potrebno
+                
                 console.log(response);
                 $('#rezultat_ocjene').html(response);
              
                 
             },
             error: function(xhr, status, error){
-                // Ovdje možete dodati kod za rukovanje greškom ako je potrebno
+                
                 console.error(error);
             }
         });

@@ -6,7 +6,7 @@ $(document).ready(function(){
 
         $.ajax({
             type: 'POST',
-            url: 'load_images.php', // Putanja do PHP skripte koja će obrađivati AJAX zahtjev
+            url: 'load_images.php', 
             data: {galleryID: galleryID}, // Slanje ID-a odabrane galerije PHP skripti
             success: function(response){
                 // Uklanjanje postojećih slika iz galerije

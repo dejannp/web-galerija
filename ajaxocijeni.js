@@ -5,7 +5,7 @@ $(document).ready(function(){
         var rating = $(this).val();
         $.ajax({
             type: 'POST',
-            url: 'ocjeni.php', // Promijeni putanju prema PHP skripti
+            url: 'ocjeni.php', 
             data: { imageID: imageID, rating: rating },
             success: function(response){
                 alert('Ocjena je uspješno ažurirana.');
